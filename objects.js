@@ -1,6 +1,6 @@
 
 var playlist = {
-metallica: 'FadeToBlack'
+john mayer: 'Free Fallin'
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
