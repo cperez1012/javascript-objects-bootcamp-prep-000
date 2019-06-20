@@ -1,14 +1,15 @@
+
 var playlist = {
-  metallica: 'FadeToBlack'
+metallica: 'FadeToBlack'
 };
 
 function updatePlaylist (playlist, artistName, songTitle){
-  var playlist = { [artistName]:songTitle }
-  return playlist
+var playlist = { [artistName]:songTitle }
+return playlist
 }
 
 function removeFromPlaylist (playlist, artistName){
 
-  delete playlist [artistName]
-  return playlist
+delete playlist [artistName]
+return playlist
 }
